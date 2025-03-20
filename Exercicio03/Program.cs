@@ -5,9 +5,13 @@
         //calcular o consumo de gasolina
         static void Main(string[] args)
         {
-            double KmInicial = 500;
-            double KmFinal = 1000;
+            Console.WriteLine("quilometragem inicial: ");
+            double KmInicial = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("quilometragem Final: ");
+            double KmFinal = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("consumo de gasolina: ");
             double ConsumoCombustivel = Convert.ToDouble(Console.ReadLine());
 
             double distantiaPercorrida = KmFinal - KmInicial;
