@@ -16,14 +16,9 @@
             Console.WriteLine("digite a terceira nota: ");
             double nota3 = Convert.ToDouble(Console.ReadLine());
 
-            double notas = 3 / (1 / nota1 + 1 / nota2 + 1 / nota3);
+            double resultado = 3.0 / ((1.0 / nota1) + (1.0 / nota2) + (1.0 / nota3));
 
-            
-
-
-
-
-
+            Console.WriteLine($"media {Math.Round(resultado)}");
             Console.ReadLine();
         }
     }
