@@ -12,20 +12,15 @@ namespace exercicio17
             Console.WriteLine("informe valor B: ");
             int valorB = Convert.ToInt32(Console.ReadLine());
 
-            double resultado1;
-
-            double resultado2;
+            double resultado;
 
             if (valorA == valorB)
-                resultado1 = valorA + valorB;
+                resultado = valorA + valorB;
 
             else 
-                  resultado2 = valorA * valorB;
+                  resultado = valorA * valorB;
 
-            Console.WriteLine($"resultado {}");
-
-
-
+            Console.WriteLine($"resultado {resultado}");
 
                 Console.ReadLine();
         }
